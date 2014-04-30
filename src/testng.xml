@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Shoushitsu Webtech CSS Colors tests" verbose="1">
+    <test name="NamedColors test">
+        <classes>
+            <class name="org.shoushitsu.webtech.css.color.NamedColorsTest"/>
+        </classes>
+    </test>
+</suite>
