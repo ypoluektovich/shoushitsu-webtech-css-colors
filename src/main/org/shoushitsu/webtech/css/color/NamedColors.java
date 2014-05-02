@@ -18,7 +18,7 @@ public class NamedColors {
 
 	private static final Map<Integer, String> NAME_BY_CODE = new HashMap<>();
 
-	private static final int ALPHA_MASK = 0xFF << 24;
+	static final int ALPHA_MASK = 0xFF << 24;
 
 	static {
 		addColorDefinition("transparent", 0);

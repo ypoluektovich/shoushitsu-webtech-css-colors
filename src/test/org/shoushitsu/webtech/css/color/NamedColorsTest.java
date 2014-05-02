@@ -8,7 +8,7 @@ public class NamedColorsTest {
 
 	public static final String RED_NAME = "red";
 
-	public static final Integer RED_CODE = 0xFF << 16;
+	public static final Integer RED_CODE = NamedColors.ALPHA_MASK | (0xFF << 16);
 
 	@Test
 	public void redCodeByName() throws Exception {
